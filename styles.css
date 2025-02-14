@@ -32,6 +32,10 @@ html {
     padding: 0;
 }
 
+main {
+    padding: 20px;
+}
+
 /* Navigation Styles */
 nav {
     background-color: #333;     /* Dark background for navigation */
