@@ -1,5 +1,6 @@
 # Angad-Hndal.github.io
 [https://angad-hndal.github.io/](https://angad-hndal.github.io/)
+
 This repository contains the source code for my personal profile website—a clean, responsive, and semantically structured site built to showcase my education, work experience, interests, and contact information. The website serves as both an online portfolio and a personal introduction, highlighting key aspects of my professional and academic background.
 
 Features
