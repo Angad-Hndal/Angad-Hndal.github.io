@@ -25,15 +25,20 @@ h2 {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
-  body {
+body {
     margin: 0;
     padding: 0;
 }
 
+section{
+    scroll-margin-top: 60px;
+}
+
 main {
     font-family: Arial, sans-serif;
+    padding-top: 200px;
     padding: 20px;
 }
 
@@ -41,6 +46,10 @@ main {
 nav {
     background-color: #333;     /* Dark background for navigation */
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
 }
 
 nav ul {
