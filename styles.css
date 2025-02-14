@@ -1,6 +1,6 @@
 /* Header Styles */
 header {
-    background-color: #4CAF50;  /* Green background */
+    background-color: #5573a3;  /* blue-grey background */
     color: white;               /* White text color */
     padding: 30px 10px;
     text-align: center;
@@ -19,10 +19,37 @@ header h1 {
     margin: 10px 0 0;
 }
 
+h2 {
+    color: #5573a3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    scroll-margin-top: 60px;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    padding-top: 200px;
+    padding: 20px;
+}
+
 /* Navigation Styles */
 nav {
     background-color: #333;     /* Dark background for navigation */
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
 }
 
 nav ul {
@@ -46,6 +73,13 @@ nav a {
 
 nav a:hover {
     background-color: #111;     /* Darker background on hover */
+}
+
+/*Footer*/
+footer {
+    background-color: #5573a3;  /* blue-grey background */
+    color: white;               /* White text color */
+    text-align: center;
 }
 
 /* Responsive: Stack nav items on small screens */
