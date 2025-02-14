@@ -18,3 +18,39 @@ header h1 {
     font-size: 2em;
     margin: 10px 0 0;
 }
+
+/* Navigation Styles */
+nav {
+    background-color: #333;     /* Dark background for navigation */
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;      /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;      /* Display items inline */
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #111;     /* Darker background on hover */
+}
+
+/* Responsive: Stack nav items on small screens */
+@media screen and (max-width: 600px) {
+    nav li {
+        display: block;
+    }
+}
